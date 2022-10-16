@@ -1,0 +1,11 @@
+# source:$p/sw/util/discord-as-a-service
+
+[Unit]
+Description=Voice Chat Appolication
+
+[Service]
+ExecStart=/usr/bin/discord
+
+[Install]
+WantedBy=default.target
+
